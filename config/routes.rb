@@ -7,6 +7,9 @@ Rails.application.routes.draw do
 
   get '/answer', to: 'coaching#answer'
 
+  get '/ask', to: 'coaching#ask', as: :question
+
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
